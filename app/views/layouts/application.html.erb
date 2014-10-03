@@ -6,16 +6,17 @@
   </head>
   <body id="<%= canonical_id @page %>">
     <%= site_bar -%>
-    <nav class="top-bar">
+    <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1 id="status">badaboom!</h1>
+          <h1><%= link_to 'home', root_path %></h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+          <a href="#"><span>Menu</span></a>
         </li>
       </ul>
       <section class="top-bar-section">
         <ul class="right">
-          <li class="divider"></li>
-          <li><%= link_to "home", root_path %></li>
           <li class="divider"></li>
           <li><%= link_to "about us", root_path %></li>
           <li class="divider"></li>
