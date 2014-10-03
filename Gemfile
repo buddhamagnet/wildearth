@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.19'
 
+gem 'fog'
 gem 'jquery-rails'
 
 gem 'refinerycms', '~> 2.1.0'
