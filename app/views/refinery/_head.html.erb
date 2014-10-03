@@ -1,0 +1,22 @@
+<meta charset='<%= Rails.application.config.encoding %>' />
+<!-- Uncomment to make IE8 render like IE7 -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title><%= browser_title(yield(:title)) %></title>
+<%= raw %(<meta name="description" content="#{@meta.meta_description}" />) if @meta.meta_description.present? -%>
+<%= raw %(<link rel="canonical" content="#{@canonical}" />) if @canonical.present? -%>
+<%= csrf_meta_tags if Refinery::Core.authenticity_token_on_frontend -%>
+<%= yield :meta %>
+
+<%= stylesheet_link_tag "application" %>
+<%= yield :stylesheets %>
+
+<%= render '/refinery/google_analytics' %>
+
+<%= javascript_include_tag 'modernizr-min' %>
