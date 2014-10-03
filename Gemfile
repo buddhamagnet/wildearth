@@ -12,7 +12,7 @@ gem 'refinerycms-blog', '~> 2.1.0'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'zurb-foundation'
+  gem 'foundation-rails'
   gem 'uglifier', '>= 1.0.3'
 end
 
