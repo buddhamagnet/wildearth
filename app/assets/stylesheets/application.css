@@ -20,3 +20,7 @@ body {
   font-family: Helvetica, Arial, "sans-serif";
   font-size: 100px;
 }
+
+.top-bar {
+  background-color: #83755D;
+}

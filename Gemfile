@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.19'
 
@@ -23,3 +23,7 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'open4'
+gem 'rubber'
+gem 'therubyracer'
