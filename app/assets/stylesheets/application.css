@@ -24,3 +24,13 @@ body {
 .top-bar {
   background-color: #83755D;
 }
+
+section.top-bar-section li:not(.has-form) a:not(.button) {
+   background-color: #83755D;
+   font-size: 1.1em;
+}
+
+section.top-bar-section li:not(.has-form) a:not(.button):hover {
+   background-color: #786B53;
+   color: #A4D263;
+}
