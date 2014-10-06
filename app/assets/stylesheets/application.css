@@ -29,6 +29,10 @@ body#home-page img {
   background-color: #83755D;
 }
 
+section#page {
+  margin: 0.5em;
+}
+
 section.top-bar-section li:not(.has-form) a:not(.button) {
    background-color: #83755D;
    font-size: 1.1em;
