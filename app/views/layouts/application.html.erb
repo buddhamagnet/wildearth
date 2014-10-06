@@ -6,6 +6,7 @@
   </head>
   <body id="<%= canonical_id @page %>">
     <%= site_bar -%>
+    <div class="sticky">
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
@@ -24,6 +25,7 @@
         </ul>
     </div>
   </nav>
+  </div>
     <div id="page_container" class="container">
       <header id="header">
         <%= render "/refinery/header" -%>
