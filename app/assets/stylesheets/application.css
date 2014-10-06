@@ -24,7 +24,7 @@ body:after {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
 }
 
 body#home-page {
@@ -58,4 +58,9 @@ section.top-bar-section li:not(.has-form) a:not(.button):hover {
 h1#logo {
 	padding: 0.5em;
   text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: smaller;
 }
