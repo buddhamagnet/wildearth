@@ -15,6 +15,18 @@
  *= require_tree .
  */
 
+body:after {
+  content: "";
+  background-image: url('https://s3-us-west-2.amazonaws.com/wildearthproductions/backdrop_colour.png');
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 body#home-page {
   background-color: #FFF;
   font-family: Helvetica, Arial, "sans-serif";
@@ -45,10 +57,5 @@ section.top-bar-section li:not(.has-form) a:not(.button):hover {
 
 h1#logo {
 	padding: 0.5em;
-  text-align: center;
-}
-
-footer p {
-  font-size: smaller;
   text-align: center;
 }
