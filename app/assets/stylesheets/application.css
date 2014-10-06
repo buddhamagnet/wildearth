@@ -50,6 +50,10 @@ section.top-bar-section li:not(.has-form) a:not(.button) {
    font-size: 1.1em;
 }
 
+html body div.sticky nav.top-bar section.top-bar-section nav#menu ul li.selected a {
+   color: #A4D263;
+}
+
 section.top-bar-section li:not(.has-form) a:not(.button):hover {
    background-color: #786B53;
    color: #A4D263;
