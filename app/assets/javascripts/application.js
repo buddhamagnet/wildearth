@@ -16,3 +16,11 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+$(function(){
+	var e = "info";
+	var t = "wildearth";
+	var n = ".productions";
+	var r = 'mailto:' + e + '@' + t + n;
+	$('.ob-ml').attr('href',r).html(r);
+});
