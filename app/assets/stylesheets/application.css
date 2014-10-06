@@ -59,6 +59,15 @@ section.top-bar-section li:not(.has-form) a:not(.button):hover {
    color: #A4D263;
 }
 
+nav.top-bar {
+  text-align:center;
+}
+
+section.top-bar-section {
+  display: inline-block;
+  margin-left: -132px;
+}
+
 h1#logo {
 	padding: 0.5em;
   text-align: center;
