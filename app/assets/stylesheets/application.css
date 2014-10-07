@@ -27,13 +27,13 @@
   z-index: -1;
 }*/
 
-body#home-page {
+body {
   background-color: #FFF;
   font-family: Helvetica, Arial, "sans-serif";
   font-size: 100px;
 }
 
-body#home-page img {
+body img {
   margin-bottom: 0.1em;
 }
 
