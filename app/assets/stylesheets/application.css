@@ -27,16 +27,6 @@
   z-index: -1;
 }*/
 
-body {
-  background-color: #FFF;
-  font-family: Helvetica, Arial, "sans-serif";
-  font-size: 100px;
-}
-
-body img {
-  margin-bottom: 0.1em;
-}
-
 .top-bar {
   background-color: #83755D;
 }
