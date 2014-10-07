@@ -22,5 +22,5 @@ $(function(){
 	var t = "wildearth";
 	var n = ".productions";
 	var r = 'mailto:' + e + '@' + t + n;
-	$('.ob-ml').attr('href',r).html(r);
+	$('.ob-ml').attr('href',r);
 });
