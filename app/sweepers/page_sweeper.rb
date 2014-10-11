@@ -19,6 +19,6 @@ class PageSweeper < ActionController::Caching::Sweeper
     
   def expire_cache_for(page)
     expire_fragment('menu')
-    expire_fragment("page_#{page.id}")
+    expire_fragment("page_#{page.title}")
   end
 end
