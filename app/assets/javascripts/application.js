@@ -18,9 +18,13 @@
 $(function(){ $(document).foundation(); });
 
 $(function(){
+	// Populate email link.
 	var e = "info";
 	var t = "wildearth";
 	var n = ".productions";
 	var r = 'mailto:' + e + '@' + t + n;
 	$('.ob-ml').attr('href',r);
+	// Apply CSS to cached menu.
+	$('nav li.selected').removeClass('selected');
+    $('nav li a[href="' + window.location.pathname + '"]').parent().addClass('selected');
 });
