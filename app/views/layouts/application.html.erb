@@ -21,7 +21,9 @@
         </li>
       </ul>
       <section class="top-bar-section">
+        <% cache 'menu' do %>
         <%= Refinery::Pages::MenuPresenter.new(refinery_menu_pages, self).to_html %>
+        <% end %>
       </section>
     </div>
   </nav>
