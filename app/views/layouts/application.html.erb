@@ -31,7 +31,11 @@
   </nav>
   </div>
     <div id="page_container" class="container">
-      <header id="header"></header>
+      <header id="header">
+      <% if Refinery::Setting.find_or_set(:live, false) %>
+        <a href="/live"><blink>WILD EARTH IS BROADCASTING NOW</blink></a>
+      <% end %>
+      </header>
       <section id="page">
         <div class="row">
           <%= yield %>
