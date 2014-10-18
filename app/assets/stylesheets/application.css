@@ -43,10 +43,6 @@ nav.top-bar:not(.expanded) {
   text-align: center;
 }
 
-section.top-bar-section { 
-  display: inline-block; 
-}
-
 section.top-bar-section li:not(.has-form) a:not(.button) {
    background-color: #83755D;
    font-size: 1.1em;
