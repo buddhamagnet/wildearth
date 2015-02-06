@@ -31,9 +31,9 @@ $(function(){
 
 $(function() {
   $("#kevin").click(function() {
-    $("#video").hide().html('<iframe width="560" height="315" src="https://www.youtube.com/embed/Q33Xlbmo28k?autoplay=1" frameborder="0" allowfullscreen></iframe>').fadeIn(300);
+    $("#video").hide().html('<iframe src="https://www.youtube.com/embed/Q33Xlbmo28k?autoplay=1" frameborder="0" allowfullscreen></iframe>').fadeIn(300);
   });
   $("#anders").click(function() {
-    $("#video").hide().html('<iframe width="560" height="315" src="https://www.youtube.com/embed/69rnVurhGFY?autoplay=1" frameborder="0" allowfullscreen></iframe>').fadeIn(300);
+    $("#video").hide().html('<iframe src="https://www.youtube.com/embed/69rnVurhGFY?autoplay=1" frameborder="0" allowfullscreen></iframe>').fadeIn(300);
   });
 });
