@@ -36,4 +36,7 @@ $(function() {
   $("#anders").click(function() {
     $("#video").hide().html('<div class="flex-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/69rnVurhGFY?autoplay=1" frameborder="0" allowfullscreen></iframe></div>').fadeIn(300);
   });
+  $("#nicola").click(function() {
+    $("#video").hide().html('<div class="flex-video"><iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/q0P0HponLLA" frameborder="0" allowfullscreen></iframe>?autoplay=1" frameborder="0" allowfullscreen></iframe></div>').fadeIn(300);
+  });
 });
